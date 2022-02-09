@@ -1,0 +1,59 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@font-face {
+	font-family: Veles;
+	src: url(/Text/Veles-Bold.0.9.2.otf);
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Veles;
+	src: url(/Text/Veles-Regular.0.9.2.otf);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+	font-family: Lato;
+	font-size: 20px;
+	background-color: rgba(255, 228, 196, 0.425);
+	line-height: 1.5;
+}
+h1{
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 40px;
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.24);
+	text-align: center;
+}
+h2{
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 30px;
+}
+h3{
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 20px;
+}
+footer{
+	text-decoration: underline;
+	font-family: Veles;
+	padding: 100px;
+	font-weight: bold;
+}
+header{
+	font-family: Veles;
+}
+.mainmenu {
+	font-size: 30px;
+}
+.dopmenu{
+	font-size: 20px;
+}
+.info + h2{
+	color: blue;
+}
+
